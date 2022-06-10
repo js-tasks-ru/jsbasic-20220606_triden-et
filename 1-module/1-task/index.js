@@ -32,7 +32,7 @@ function factorial(n) {
   } 
   
   else {
-    alert( "The number is not naturalis" );
+    alert( "The number is not natural" );
   }
   
 return factorial;
@@ -49,3 +49,4 @@ return factorial;
 Спасибо
 
 */
+
