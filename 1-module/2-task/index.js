@@ -1,6 +1,12 @@
 /**
+ Требования:
+ 1. имя не пустое (не null)
+ 2. без пробелов
+ 3. минимум 4 символа.
+ 
  * Эту функцию трогать не нужно
- */
+*/
+
 function print(text) {
   console.log(text);
 }
@@ -10,7 +16,18 @@ function print(text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid(name) {
-  // ваш код...
+  
+  let validUserName;
+
+  if ( name === null || name.length < 4 || name.includes( ' ' ) === true ) {
+    validUserName = false;    
+  }
+  else {
+    validUserName = true;
+  }
+
+  return validUserName;
+
 }
 
 function sayHello() {
