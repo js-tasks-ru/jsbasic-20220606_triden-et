@@ -6,7 +6,5 @@ function filterRange(arr, a, b) {
 
   });
 
-
-  console.log(rangerArr);
   return rangerArr;
 }
